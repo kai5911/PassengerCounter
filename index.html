@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>SCORE BOARD</h1>
+        <div class="scoreboard">
+            <div class="container">
+                <h2>Team1</h2>
+                <h2 id="countone-el">0</h2>
+                <button id="first-btn" onclick="incrementOne()">+1</button>
+                <button id="minusone-btn" onclick="minusOne()">-1</button>
+            </div>
+            <div class="container">
+                <h2>Team2</h2>
+                <h2 id="counttwo-el">0</h2>
+                <button id="second-btn" onclick="incrementTwo()">+1</button>
+                <button id="minustwo-btn" onclick="minusTwo()">-1</button>
+            </div>
+        </div>
+        <div class="container2">
+            <button id="save-btn" onclick="save()">Save</button>
+            <h3 id="history-el">Score History: </h3>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
